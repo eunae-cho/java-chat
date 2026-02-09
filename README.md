@@ -1,9 +1,15 @@
-###💡 Java chat
+💡 Java chat
 -
 Java 기반 Socket 통신을 활용하여 구현한 실시간 채팅 프로그램입니다.
 친구 및 팀 단위로 자유롭게 소통할 수 있도록 채팅방 생성, 1:1 채팅, 그룹 채팅 기능을 제공합니다.
 
+Client  ←→  Server(Socket)  ←→  Database(MySQL)
+                  │
+             Multi Thread
 서버-클라이언트 구조와 멀티스레드 환경을 직접 설계·구현하며 네트워크 통신과 동시성 처리에 대한 이해를 높이고자 진행한 프로젝트입니다.
 
 ‣ 사용 기술 & Tools
 Java, Mysql, JDBC, Eclipse, Window Builder
+
+
+
